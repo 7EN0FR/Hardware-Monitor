@@ -1,0 +1,46 @@
+<Application x:Class="XenoHardwareMonitor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Steam Technical Color Palette -->
+        <SolidColorBrush x:Key="BgDarkBrush" Color="#171a21"/>
+        <SolidColorBrush x:Key="PanelBgBrush" Color="#1b2838"/>
+        <SolidColorBrush x:Key="BorderBrush" Color="#3d4450"/>
+        <SolidColorBrush x:Key="GridMatrixBrush" Color="#232933"/>
+        <SolidColorBrush x:Key="AccentCyan" Color="#00E5FF"/>
+        <SolidColorBrush x:Key="AccentOrange" Color="#FF9100"/>
+        <SolidColorBrush x:Key="AccentGreen" Color="#00E676"/>
+        <SolidColorBrush x:Key="AccentYellow" Color="#FFEE58"/>
+        <SolidColorBrush x:Key="AccentPurple" Color="#AB47BC"/>
+        <SolidColorBrush x:Key="AccentTeal" Color="#26A69A"/>
+        <SolidColorBrush x:Key="TextPrimary" Color="#c7d5e0"/>
+        <SolidColorBrush x:Key="TextSecondary" Color="#8f98a0"/>
+
+        <!-- Steam Area Graph Gradients -->
+        <LinearGradientBrush x:Key="CpuGradient" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#5000E5FF" Offset="0.0"/>
+            <GradientStop Color="#0500E5FF" Offset="1.0"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="GpuGradient" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#50FF9100" Offset="0.0"/>
+            <GradientStop Color="#05FF9100" Offset="1.0"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="RamGradient" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#5000E676" Offset="0.0"/>
+            <GradientStop Color="#0500E676" Offset="1.0"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="StorageGradient" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#50FFEE58" Offset="0.0"/>
+            <GradientStop Color="#05FFEE58" Offset="1.0"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="NetworkGradient" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#50AB47BC" Offset="0.0"/>
+            <GradientStop Color="#05AB47BC" Offset="1.0"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="SystemGradient" StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#5026A69A" Offset="0.0"/>
+            <GradientStop Color="#0526A69A" Offset="1.0"/>
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>
