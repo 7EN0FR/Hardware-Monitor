@@ -6,10 +6,8 @@ Experience ultimate system telemetry with this high-tech dark-themed monitor bui
 - 🎮 **GPU & VRAM Metrics**: Direct monitoring of GPU temperature and VRAM utilization.
 - 📈 **Neon Glowing Graphs**: Dynamic 6-module graph paths upgraded with linear scaling and ghost texture lines.
 - 🎨 **MSI Afterburner Aesthetic**: Dark-mode user interface stylized with vibrant cyan, orange, and green neon accents.
+- 
 
-Let's simplify the installation section of our README.md so users know they can just grab the compiled executable instantly without using the terminal.
-
-Please open 'README.md' and update the "How to Use / Build" section to look exactly like this:
 
 ## 📥 How to Run
 1. Go to the **Releases** section on the right side of this page.
