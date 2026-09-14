@@ -7,8 +7,18 @@ Experience ultimate system telemetry with this high-tech dark-themed monitor bui
 - 📈 **Neon Glowing Graphs**: Dynamic 6-module graph paths upgraded with linear scaling and ghost texture lines.
 - 🎨 **MSI Afterburner Aesthetic**: Dark-mode user interface stylized with vibrant cyan, orange, and green neon accents.
 
-## 🛠️ How to Use / Build
-1. Clone or download this repository.
-2. Open the terminal in the directory and run: `dotnet build`
-3. Run the executable generated inside the `bin/Debug/net8.0-windows/` folder.
+Let's simplify the installation section of our README.md so users know they can just grab the compiled executable instantly without using the terminal.
+
+Please open 'README.md' and update the "How to Use / Build" section to look exactly like this:
+
+## 📥 How to Run
+1. Go to the **Releases** section on the right side of this page.
+2. Download the latest **`XenoHardwareMonitor.exe`** standalone file.
+3. Save it anywhere on your computer and double-click it to run instantly! No installation or external .NET runtimes required.
+
+Once you have modified the file, open the terminal and push the updated README to GitHub:
+git add README.md
+git commit -m "Docs: Simplify installation steps to point directly to direct .exe release"
+git push origin main
+
 
